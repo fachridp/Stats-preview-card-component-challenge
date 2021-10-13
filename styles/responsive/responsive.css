@@ -1,0 +1,132 @@
+@media only screen and (min-width: 375px) {
+  main .container-card section.container-left article {
+    padding: 0 2.5rem;
+  }
+  main .container-card section.container-left article .insights .title h1 {
+    font-size: 1.8em;
+  }
+}
+
+@media only screen and (min-width: 480px) {
+  main .container-card {
+    width: 85vw;
+  }
+}
+
+@media only screen and (min-width: 520px) {
+  main .container-card {
+    width: 75vw;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  main .container-card {
+    width: 65vw;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  main .container-card {
+    width: 55vw;
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  main .container-card {
+    width: 95vw;
+    margin: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+  }
+  main .container-card section.container-right {
+    position: relative;
+    width: 100%;
+  }
+  main .container-card section.container-right img {
+    width: 100%;
+    height: 100%;
+  }
+  main .container-card section.container-left article .insights {
+    text-align: left;
+  }
+  main .container-card section.container-left article .insights .title {
+    margin: 1.8rem 0 0 0;
+  }
+  main .container-card section.container-left article .insights .title h1 {
+    font-size: 1.8em;
+    letter-spacing: 0.02rem;
+  }
+  main .container-card section.container-left article .insights .title h1 span {
+    color: var(--SoftViolet);
+  }
+  main .container-card section.container-left article .insights .desc {
+    width: 356px;
+    margin: 1rem 0 0 0;
+  }
+  main .container-card section.container-left article .insights .desc p {
+    font-size: 1em;
+    color: var(--SlightlyTransparentWhiteParagraph);
+    line-height: 1.5rem;
+  }
+  main .container-card section.container-left article .stats {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    text-align: left;
+  }
+  main .container-card section.container-left article .stats .companies h5 {
+    font-size: 1.4em;
+    line-height: 2.2rem;
+  }
+  main .container-card section.container-left article .stats .templates {
+    margin: 1.4rem 0;
+  }
+  main .container-card section.container-left article .stats .templates h5 {
+    font-size: 1.4em;
+    line-height: 2.2rem;
+  }
+  main .container-card section.container-left article .stats .queries h5 {
+    font-size: 1.4em;
+    line-height: 2.2rem;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  main .container-card {
+    width: 85vw;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  main .container-card {
+    width: 80vw;
+  }
+}
+
+@media only screen and (min-width: 1100px) {
+  main .container-card {
+    width: 75vw;
+  }
+}
+
+@media only screen and (min-width: 1180px) {
+  main .container-card {
+    width: 70vw;
+  }
+}
+
+@media only screen and (min-width: 1250px) {
+  main .container-card {
+    width: 65vw;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */

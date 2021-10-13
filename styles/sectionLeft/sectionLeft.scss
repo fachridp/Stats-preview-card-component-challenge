@@ -1,0 +1,84 @@
+section.container-left {
+  article {
+    padding: 0 3.1rem;
+
+    .insights {
+      .title {
+        margin: 1.8rem 0 0 0;
+
+        h1 {
+          font-size: 1.3em;
+          letter-spacing: 0.02rem;
+
+          span {
+            color: var(--SoftViolet);
+          }
+        }
+      }
+
+      .desc {
+        margin: 1rem 0 0 0;
+
+        p {
+          font-size: 1em;
+          color: var(--SlightlyTransparentWhiteParagraph);
+          line-height: 1.5rem;
+        }
+      }
+    }
+
+    .stats {
+      height: 100%;
+      margin: 2rem 0 1.4rem 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      //   background-color: red;
+
+      .companies {
+        h5 {
+          font-size: 1.4em;
+          line-height: 2.8rem;
+        }
+
+        p {
+          font-size: 0.8em;
+          text-transform: uppercase;
+          letter-spacing: 0.1rem;
+          color: var(--SlightlyTransparentWhiteParagraph);
+        }
+      }
+
+      .templates {
+        margin: 1.4rem 0;
+
+        h5 {
+          font-size: 1.4em;
+          line-height: 2.8rem;
+        }
+
+        p {
+          font-size: 0.8em;
+          text-transform: uppercase;
+          letter-spacing: 0.1rem;
+          color: var(--SlightlyTransparentWhiteParagraph);
+        }
+      }
+
+      .queries {
+        h5 {
+          font-size: 1.4em;
+          line-height: 2.8rem;
+        }
+
+        p {
+          font-size: 0.8em;
+          text-transform: uppercase;
+          letter-spacing: 0.1rem;
+          color: var(--SlightlyTransparentWhiteParagraph);
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+.container-card {
+  width: 90vw;
+  margin: 6.5rem 0 2rem 0;
+  background-color: var(--DarkDesaturatedBlue);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 1rem;
+  overflow: hidden;
+}

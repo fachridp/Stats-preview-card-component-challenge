@@ -1,0 +1,85 @@
+section.container-left article {
+  padding: 0 3.1rem;
+}
+
+section.container-left article .insights .title {
+  margin: 1.8rem 0 0 0;
+}
+
+section.container-left article .insights .title h1 {
+  font-size: 1.3em;
+  letter-spacing: 0.02rem;
+}
+
+section.container-left article .insights .title h1 span {
+  color: var(--SoftViolet);
+}
+
+section.container-left article .insights .desc {
+  margin: 1rem 0 0 0;
+}
+
+section.container-left article .insights .desc p {
+  font-size: 1em;
+  color: var(--SlightlyTransparentWhiteParagraph);
+  line-height: 1.5rem;
+}
+
+section.container-left article .stats {
+  height: 100%;
+  margin: 2rem 0 1.4rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+section.container-left article .stats .companies h5 {
+  font-size: 1.4em;
+  line-height: 2.8rem;
+}
+
+section.container-left article .stats .companies p {
+  font-size: 0.8em;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  color: var(--SlightlyTransparentWhiteParagraph);
+}
+
+section.container-left article .stats .templates {
+  margin: 1.4rem 0;
+}
+
+section.container-left article .stats .templates h5 {
+  font-size: 1.4em;
+  line-height: 2.8rem;
+}
+
+section.container-left article .stats .templates p {
+  font-size: 0.8em;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  color: var(--SlightlyTransparentWhiteParagraph);
+}
+
+section.container-left article .stats .queries h5 {
+  font-size: 1.4em;
+  line-height: 2.8rem;
+}
+
+section.container-left article .stats .queries p {
+  font-size: 0.8em;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  color: var(--SlightlyTransparentWhiteParagraph);
+}
+/*# sourceMappingURL=sectionLeft.css.map */
